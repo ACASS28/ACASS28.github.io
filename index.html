@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--
 	Eventually by HTML5 UP
@@ -6,83 +7,7 @@
 -->
 <html>
 	<head>
-		<title>Eventually by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
-
-		<!-- Header -->
-			<header id="header">
-				<h1>Maggie The Aggie</h1>
-				
-			</header>
-
-		<div class="container">
-    		<label for="uname"><b>Username</b></label>
-    		<input type="text" placeholder="Enter Username" name="uname" id="username" required>
-
-    		<label for="psw"><b>Password</b></label>
-    		<input type="password" placeholder="Enter Password" name="psw" id="password" required>
-
-   		 <button type="submit">Login</button>
-    		<label>
-     		 <input type="checkbox" checked="checked" name="remember"> Remember me
-    		</label>
-  		</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Untitled.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/main.js">
-
-				var attempt = 3; // Variable to count number of attempts.
-				// Below function Executes on click of login button.
-				function validate(){
-					var username = document.getElementById("username").value;
-					var password = document.getElementById("password").value;
-					if ( username == "Formget" && password == "formget#123"){
-					alert ("Login successfully");
-					window.location = "success.html"; // Redirecting to other page.
-					return false;
-				}
-				else{
-					attempt --;// Decrementing by one.
-					alert("You have left "+attempt+" attempt;");
-					// Disabling fields after 3 attempts.
-					if( attempt == 0){
-					document.getElementById("username").disabled = true;
-					document.getElementById("password").disabled = true;
-					document.getElementById("submit").disabled = true;
-					return false;
-				}
-				}
-				}
-			</script>
-
-	</body>
-</html>
-<!DOCTYPE HTML>
-<!--
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Eventually by HTML5 UP</title>
+		<title>Maggie the Aggie</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
