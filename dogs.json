@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Maggie",
+        "age":"8 months",
+        "breed":"maltipoo",
+        "color":"white"
+    },
+    {
+        "name":"Casey",
+        "age":"15 years",
+        "breed":"poodle",
+        "color":"white"
+    }
+]
